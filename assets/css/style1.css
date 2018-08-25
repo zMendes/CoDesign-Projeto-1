@@ -1,51 +1,61 @@
+body {
+    background-color: red;
+}
+
 .header{
-	border-style: solid;
+    background-color: gray;
+    border-style: solid;
     border-width: 0.2rem;
     margin: 1rem;
     padding: 1rem;
 }
-
+.main {
+    background-color: white;
+    display: flex;  
+    margin: 1rem;
+    padding: 1rem;
+}
 .margem{
-	border-style: solid;
-    border-width: 0.2rem;
+    border-style: solid;
+    border-width: 0.1rem;
     margin: 1rem;
     width: 50%;
     padding: 1rem;
+    flex-basis: 1rem;
+    width: 50%;
 }
 #title {
-	font-size: 24pt;
-	margin: 1rem;
+    font-size: 24pt;
+    margin: 1rem;
 }
 .subtitle {
-	font-size: 18pt;
+    font-size: 18pt;
 }
 
 .item-goals  {
-	list-style-type: circle;
-	margin-left: 2rem;
-	margin-bottom: 1rem;
+    list-style-type: circle;
+    margin-left: 2rem;
+    margin-bottom: 1rem;
 }
-.center {
-	display: flex;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-}
+
 #img {
-	height: 53%;
-	width: 41%;
-	float: right;
-	position: relative;
-	margin-top: -8.2rem;
-	margin-right: 1rem; 
+    float: right;
+    height: 20rem;
+    width: 40rem;
+    margin-top:-8rem;
+    flex-grow: 1;
+    flex-shrink: 5;
 }
 #material {
-	border-style: solid;
-    border-width: 0.2rem;
+    border-style: solid;
+    border-width: 0.1rem;
     margin: 1rem;
-
+    padding: 1rem;
+    flex-basis: 40rem;
+    flex-grow: 1;
+    flex-shrink: 1;
 }
 .line {
-	display: inline;
-	margin-left: 21rem;
+    display: inline;
+    margin-left: 16rem;
 }
